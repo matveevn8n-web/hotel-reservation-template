@@ -1,220 +1,128 @@
 <!doctype html>
-<html lang="en">
-
-<head>
+<html lang="ru"> <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HR</title>
+    
+    <title>Matveev Apartments — уютные апартаменты и онлайн-бронирование</title>
+    <meta name="description" content="Забронируйте комфортные апартаменты Matveev Apartments. Прямое бронирование через Bnovo, лучшие цены и домашний уют.">
+    <meta name="keywords" content="Matveev Apartments, забронировать апартаменты, снять жилье посуточно, Bnovo бронирование">
 
-    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
-
-    <!-- style css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <!-- topbar -->
     <section class="topbar bg-dark py-2 border-bottom border-dark">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
                 <p class="mb-0 text-white">
-                    Directly contact us for reservation: <a href="tel:1234567890"
-                        class="text-white text-decoration-none">1234567890</a>
+                    Бронирование по телефону: <a href="tel:+79179487788" class="text-white text-decoration-none">+7 (917) 948-77-88</a>
                 </p>
                 <p class="mb-0">
-                    <a href="#" class="text-decoration-none text-white">ENG</a> |
-                    <a href="#" class="text-decoration-none text-white">PHP</a>
+                    <a href="#" class="text-decoration-none text-white small">RU</a> |
+                    <a href="#" class="text-decoration-none text-white small">EN</a>
                 </p>
             </div>
         </div>
     </section>
-    <!-- topbar -->
 
-    <!-- header -->
     <section class="header">
         <nav class="navbar navbar-expand-lg bg-transparent">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <img src="img/logo.jpg" class="img-fluid logo" alt="">
+                    <h2 class="mb-0 fw-bold text-dark">MATVEEV</h2>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item ms-4">
-                            <a class="nav-link text-dark active" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item ms-4">
-                            <a class="nav-link text-dark" href="about.html">About Us</a>
-                        </li>
-                        <li class="nav-item ms-4">
-                            <a class="nav-link text-dark" href="rooms.html">Our Rooms</a>
-                        </li>
-                        <li class="nav-item ms-4">
-                            <a class="nav-link text-dark" href="reservation.html">Reservation</a>
-                        </li>
-                        <li class="nav-item ms-4">
-                            <a class="nav-link text-dark" href="contact.html">Contact</a>
-                        </li>
+                        <li class="nav-item ms-4"><a class="nav-link text-dark active" href="index.html">Главная</a></li>
+                        <li class="nav-item ms-4"><a class="nav-link text-dark" href="about.html">О нас</a></li>
+                        <li class="nav-item ms-4"><a class="nav-link text-dark" href="rooms.html">Наши номера</a></li>
+                        <li class="nav-item ms-4"><a class="nav-link text-dark" href="reservation.html">Бронирование</a></li>
+                        <li class="nav-item ms-4"><a class="nav-link text-dark" href="contact.html">Контакты</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </section>
-    <!-- header -->
 
-    <!-- hero -->
-    <section class="hero">
+    <section class="hero text-center py-5">
         <div class="container">
-            <div class="offer bg-white  d-inline-flex m-auto">
+            <div class="offer bg-white d-inline-flex m-auto shadow-sm mb-4">
                 <p class="mb-0 lead text-uppercase">
-                    <span class="bg-orange fw-bold d-inline-block p-3">
-                        Promo
-                    </span>
-                    <span class="d-inline-block p-3">
-                        Get 20% off on your first booking
-                    </span>
+                    <span class="bg-orange fw-bold d-inline-block p-3 text-white">Акция</span>
+                    <span class="d-inline-block p-3">Скидка 20% на первое бронирование</span>
                 </p>
             </div>
+            
+            <h1 class="display-4 fw-bold mb-4">Комфорт, который вы заслужили</h1>
 
-            <!-- check availability -->
-            <div class="availability mt-4">
-                <form action="./reservation.html">
-                    <div class="card shadow border-0 rounded-0">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-md-3 p-4 m-auto">
-                                    <p>
-                                        Check in
-                                    </p>
-                                    <input type="date" class="form-control border-0 p-0" name="" id="">
-                                </div>
-                                <div class="col-md-3 p-4 m-auto">
-                                    <p>
-                                        Check Out
-                                    </p>
-                                    <input type="date" class="form-control border-0 p-0" name="" id="">
-                                </div>
-                                <div class="col-md-3 p-4 m-auto">
-                                    <p>
-                                        Guests
-                                    </p>
-                                    <input type="text" class="form-control border-0 p-0" value="2" name="" id="">
-                                </div>
-                                <div class="col-md-3 p-4 m-auto">
-                                    <p>
-                                        <a id="promo" class="text-primary text-decoration-none">
-                                            Have a Promo Code?
-                                        </a>
-                                    <div id="promo-holder">
-                                        <form action="">
-                                            <div class="input-group">
-                                                <input type="text" class="form-control fs-14" placeholder="promo code"
-                                                    name="" id="">
-                                                <a class="btn btn-danger fs-14 d-flex justify-content-center align-items-center"
-                                                    id="promo-closer">
-                                                    <i class="fa fa-times"></i>
-                                                </a>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    </p>
-                                    <button class=" btn btn-orange rounded-0 w-100">
-                                        CHECK AVAILABILITY
-                                    </button>
-                                </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="card shadow-lg border-0 p-3 bg-light">
+                        <div id="booking_iframe" style="padding-bottom: 32px; position: relative;">
+                            <div id="bn_iframe" style='position: absolute; right: 0; margin-top: 12px; font-family: "Proxima nova", Arial, sans-serif; font-size: 12px; opacity: 0.5; z-index: 3; bottom:0;'>
+                                <a style='color: #808080 !important;' href="http://bnovo.ru/" id="bnovo_link" target="_blank">Система управления отелем Bnovo ©</a>
                             </div>
                         </div>
+                        <script src="https://widget.reservationsteps.ru/iframe/library/dist/booking_iframe.js"></script>
+                        <script type="text/javascript">
+                          var BookingIframe = new BookingIframe({
+                            html_id: 'booking_iframe',
+                            uid: 'e358a8dd-e919-467b-989e-ce34e5b25142',
+                            lang: 'ru',
+                            width: 'auto',
+                            height: 'auto',
+                            rooms: '',
+                            IsMobile: '0',
+                            scroll_to_rooms: '0'
+                          })
+                          BookingIframe.init()
+                        </script>
                     </div>
-                </form>
+                </div>
             </div>
-            <!-- check availability -->
         </div>
     </section>
-    <!-- hero -->
 
-
-    <!-- about us -->
     <section class="about py-5">
         <div class="container">
-            <div class="text-center">
-                <h4>
-                    <a href="about.html" class="text-uppercase text-dark text-decoration-none ls-3 text-muted">
-                        Little About Us
-                    </a>
-                </h4>
-
-                <p class="lead">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi magnam culpa, quasi tempore vel
-                    obcaecati harum officia, explicabo iste minima necessitatibus, nostrum similique architecto dicta
-                    eum iure cum labore id pariatur a ut sit non? Debitis iure nulla nihil est in beatae necessitatibus
-                    quos dolorum, reiciendis vero praesentium ducimus, iste fuga maxime quasi aut assumenda sed minus
-                    soluta recusandae qui! Facilis quam amet repudiandae cupiditate minima aspernatur molestias
-                    consequuntur voluptates, velit aut quia voluptate obcaecati delectus maiores eligendi cumque libero
-                    quaerat similique! Nisi dignissimos maxime placeat fugiat vero rerum aliquam, mollitia doloribus
-                    quam consequuntur. Numquam sit aliquid sapiente molestiae est!
+            <div class="text-center mx-auto" style="max-width: 800px;">
+                <h2 class="text-uppercase fw-bold mb-4">О Matveev Apartments</h2>
+                <p class="lead mb-4">
+                    Мы предлагаем стильные и уютные апартаменты для тех, кто ценит домашнюю атмосферу и безупречный сервис. Наши объекты расположены в лучших локациях, полностью укомплектованы техникой и готовы к вашему приезду.
                 </p>
                 <p class="lead">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi magnam culpa, quasi tempore vel
-                    obcaecati harum officia, explicabo iste minima necessitatibus, nostrum similique architecto dicta
-                    eum iure cum labore id pariatur a ut sit non? Debitis iure nulla nihil est in beatae necessitatibus
-                    quos dolorum, reiciendis vero praesentium ducimus, iste fuga maxime quasi aut assumenda sed minus
-                    soluta recusandae qui! Facilis quam amet repudiandae cupiditate minima aspernatur molestias
-                    consequuntur voluptates, velit aut quia voluptate obcaecati delectus maiores eligendi cumque libero
-                    quaerat similique! Nisi dignissimos maxime placeat fugiat vero rerum aliquam, mollitia doloribus
-                    quam consequuntur. Numquam sit aliquid sapiente molestiae est!
+                    Бронируя напрямую через наш сайт, вы получаете гарантию лучшей цены и персональную поддержку на всех этапах вашего пребывания.
                 </p>
-                <a href="about.html" class="btn btn-orange mt-5">
-                    Read More
-                </a>
+                <a href="about.html" class="btn btn-orange btn-lg mt-4 px-5">Узнать больше</a>
             </div>
         </div>
     </section>
-    <!-- about us -->
 
-    <!-- footer -->
-    <footer class="bg-dark text-center text-white">
+    <footer class="bg-dark text-center text-white pt-5">
         <div class="container p-4 pb-0">
             <section class="mb-4">
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-twitter"></i></a>
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-google"></i></a>
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-instagram"></i></a>
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-github"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-whatsapp"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-telegram"></i></a>
             </section>
         </div>
 
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2023 Copyright:
-            <a class="text-white" href="index.html">Hotel Name</a>
+            © 2026 Copyright:
+            <a class="text-white fw-bold text-decoration-none" href="index.html">MATVEEV APARTMENTS®</a>
         </div>
     </footer>
-    <!-- footer -->
 
-
-    <!-- app js -->
     <script src="js/app.js"></script>
-    <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
